@@ -9,10 +9,15 @@
 <body>
     <script src="script.js"></script>
 
-    <div class="box">
-        <h1>WELCOME TO MY WEBSITE</h1>
-        <p>Click the button to see a message:</p>
-        <button id="unknown" onclick="alert(myf('Hello'))">Click Me</button>
+    <div id="box">
+        <h1>LOGIN</h1>
+        <label for="name box" id="name">Your name:</label>
+        <input type="text" id="namebox" placeholder="Tim bernes-lee">
+        
+        <label for="email Box" id="email">Enter your email Id:</label>
+        <input type="email" id="emailbox" placeholder="timBernes-lee@gmail.com">
+
+        <button id="loginButton" onclick="alert(myf(document.getElementById('namebox').value))">Login</button>
     </div>
     
 </body>
