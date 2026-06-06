@@ -1,0 +1,53 @@
+body {
+    background-color: #000000;
+
+}
+
+h1 {
+    color:aqua;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-family: "Times New Roman", Times, serif;
+}
+#name {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-family: "Times New Roman", Times, serif;
+}
+#namebox {
+    position: absolute;
+    top: 34%;
+    left: 15%;
+}
+#email {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: "Times New Roman", Times, serif;
+}
+#emailbox {
+    position: absolute;
+    top: 44%;
+    left: 15%;
+}
+#loginButton {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+
+    width: 55px;
+    height: 35px;
+
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(0, 17, 255);
+    
+    border-color: gold;
+    border-width: 2px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
