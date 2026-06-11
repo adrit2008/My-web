@@ -2,8 +2,19 @@ body {
     background-color: #000000;
 
 }
+#bgvideo {
+    
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Pushes the video behind other elements */
+
+}
 
 h1 {
+    padding: auto;
     color:aqua;
     position: absolute;
     top: 15%;
@@ -11,6 +22,7 @@ h1 {
     font-family: "Times New Roman", Times, serif;
 }
 #name {
+    padding: auto;
     color: white;
     position: absolute;
     top: 30%;
@@ -18,11 +30,13 @@ h1 {
     font-family: "Times New Roman", Times, serif;
 }
 #namebox {
+    padding: auto;
     position: absolute;
     top: 34%;
     left: 15%;
 }
 #email {
+    padding: auto;
     color: white;
     position: absolute;
     top: 40%;
@@ -30,6 +44,7 @@ h1 {
     font-family: "Times New Roman", Times, serif;
 }
 #emailbox {
+    padding: auto;
     position: absolute;
     top: 44%;
     left: 15%;
@@ -50,4 +65,26 @@ h1 {
     border-width: 2px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+.box {
+     width: 400px;
+     height: 300px;
+     padding: 50px;
+     top: 30%;
+        left: 30%;
+    position: absolute;
+    border-radius: 15px; /* Smooth rounded corners */
+    
+    /* 1. Semi-transparent background color */
+    background: rgba(255, 255, 255, 0.15); 
+    
+    /* 2. The actual blur effect */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    
+    /* 3. Subtle borders and shadows for depth */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    
+    text-align: center;
 }
