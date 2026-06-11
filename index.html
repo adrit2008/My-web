@@ -7,17 +7,24 @@
     <title>WELCOME</title>
 </head>
 <body>
+    <video autoplay muted loop playsinline id="bgvideo">
+        <source src="BGV.mp4" type="video/mp4">
+
+            
+        </video>"
+    </video>
     <script src="script.js"></script>
 
-    <div id="box">
-        <h1>LOGIN</h1>
-        <label for="name box" id="name">Your name:</label>
-        <input type="text" id="namebox" placeholder="Tim bernes-lee">
+    <div class="box">
+        <form>
+         <h1>LOGIN</h1>
+         <label for="name box" id="name">Your name:</label>
+         <input type="text" id="namebox" placeholder="Tim bernes-lee">
         
-        <label for="email Box" id="email">Enter your email Id:</label>
-        <input type="email" id="emailbox" placeholder="timBernes-lee@gmail.com">
+         <input type="email" id="emailbox" placeholder="timBernes-lee@gmail.com">
 
-        <button id="loginButton" onclick="alert(myf(document.getElementById('namebox').value))">Login</button>
+         <button id="loginButton" onclick="alert(myf(document.getElementById('namebox').value))">Login</button>
+    </form>
     </div>
     
 </body>
